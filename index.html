@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <title>Minigame Selector</title>
+        <script src="script.js"></script>
+    </head>
+    <body style="text-align: center;"><br>
+        <h1>Minigame Selector</h1><br>
+        <select id="select" onchange="playGame(value);">
+            <option value="select"><-- Please Select --></option>
+            <option value="guessNumber">Guess Number</option>
+            <option value="checkLottery">Check Lottery</option>
+            <option value="throwCoin">Throw a Coin</option>
+            <option value="rockPaperScissors">Rock, paper, scissors</option>
+        </select>
+    </body>
+</html>
