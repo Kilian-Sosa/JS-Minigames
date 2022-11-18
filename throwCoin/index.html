@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <title>Throw Coin</title>
+        <script src="script.js"></script>
+    </head>
+    <body style="text-align: center;">
+        <div class="d-grid gap-2">
+            <button class="btn btn-secondary" onclick="window.location.replace('..');">Minigames Selector</button><br>
+        </div>
+        <button class="btn btn-primary" onclick="throwCoin()">Throw Coin</button><br><br>
+        <img src="images/coins.jpg" id="coinsImg">
+        <img src="images/heads.jpg" id="headsImg" style="display: none; margin-left: auto; margin-right: auto;">
+        <img src="images/tails.jpg" id="tailsImg" style="display: none; margin-left: auto; margin-right: auto;">
+        <h3 id="result"></h3>
+
+        <p>How to play:</p>
+        <p>When the user presses the button, the program will throw a coin and let the user know the result</p>
+    </body>
+</html>

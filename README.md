@@ -7,3 +7,6 @@
 2. Buy Lottery
     How to play:
     The program will generate 6 random numbers that will not repeat.
+3. Throw A Coin
+    How to play:
+    When the user presses the button, the program will throw a coin and let the user know the result
