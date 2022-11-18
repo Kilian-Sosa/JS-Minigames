@@ -9,4 +9,6 @@
     The program will generate 6 random numbers that will not repeat.
 3. Throw A Coin
     How to play:
-    When the user presses the button, the program will throw a coin and let the user know the result
+    When the user presses the button, the program will throw a coin and let the user know the result.
+4. Rock, Paper, Scissors
+    The classic game where you try to win versus the machine.
